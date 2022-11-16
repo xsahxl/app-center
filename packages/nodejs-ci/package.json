@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-ci",
+  "version": "1.0.0",
+  "description": "CI/CD NodeJs App using Github Actions",
+  "homepage": "https://github.com/serverless-cd/applications.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "author": "mamba",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "supertest": "^4.0.2"
+  }
+}

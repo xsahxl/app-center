@@ -1,0 +1,36 @@
+{
+  "name": "@serverless-cd/app-center",
+  "version": "0.0.1-alpha.3",
+  "description": "app-center",
+  "main": "index.js",
+  "funding": [
+    {
+      "type": "hello-world",
+      "url": "测试游戏"
+    },
+    {
+      "type": "Apache-2.0",
+      "url": "https://opensource.org/licenses/apache2.0.php"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serverless-cd/app-center.git"
+  },
+  "author": "mamba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serverless-cd/app-center/issues"
+  },
+  "homepage": "https://github.com/serverless-cd/app-center#readme"
+}
